@@ -1,0 +1,87 @@
+body{
+  display: flex;
+  justify-content: space-around;
+  margin-top:50px;
+}
+.form{
+display:flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+width: 400px;
+height:500px;
+box-shadow: 3px 4px 5px saddlebrown,-3px -4px 5px saddlebrown;
+}
+h1{
+color:rgb(241, 87, 87)
+
+}
+.js-add,.date{
+padding:5px;
+border-radius:3px;
+width:200px;
+margin:30px;
+font:1.2rem sans-serif;
+border:transparent;
+border-left:3px solid aqua;
+border-bottom:2px solid gainsboro;
+outline:none;
+}
+button{
+padding:5px;
+border-radius: 50%;
+width:200px;
+cursor: pointer;
+border:none;
+outline:none;
+background-color: black;
+color: rgb(169, 216, 201);
+box-shadow: 2px 3px 5px whitesmoke;
+font:1.2rem sans-serif;
+font-weight: 700;
+margin:30px;
+}
+.printbody{
+display: flex;
+width: 600px;
+flex-direction: column;
+box-shadow: 3px 4px 5px saddlebrown,-3px -4px 5px saddlebrown;
+}
+.header{
+font-family: sans-serif;
+text-align: center;
+}
+#pr1{
+font: 1.2rem sans-serif;
+font-weight: 600;
+display:flex;
+justify-content: space-around;
+}
+
+#pr{
+font:1.2rem sans-serif;
+font-weight: 500;
+display:flex;
+justify-content: space-around;
+margin-left:15px ;
+}
+#span1,#span2,.span1,.span2{
+margin:40px;
+}
+#span3{
+margin-top:-1px;
+
+}
+#span4{
+border-radius: 5px;
+}
+#span4:hover{
+background-color: rgb(38, 142, 232);
+transition:.2s linear;
+color: black;
+}
+#printbody1{
+width:600px;
+display: flex;
+flex-direction: column;
+}
